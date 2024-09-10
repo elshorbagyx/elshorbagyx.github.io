@@ -1,0 +1,48 @@
+---
+layout: default
+---
+<h1>
+  {{ page.title }}
+</h1>
+
+<div class="post-date-page">
+{%- if page.date -%}
+  <h5> {{ page.author }} | {{ page.date | date_to_string }} </h5>
+{%- else -%}
+  <h5> {{ page.author }} </h5>
+{%- endif -%}
+</div>
+
+{%- if page.keywords -%}
+<div class="post-keywords">
+<h4> {{ page.keywords }} </h4>
+</div>
+{%- endif -%}
+
+{% if page.image %}
+<div style="text-align:center">
+<img src="{{ site.github.url }}/assets/posts-covers/{{ page.image }}">
+</div>
+{% endif %}
+
+{%- if page.excerpt -%}
+      <p></p>
+      {{ page.excerpt }}
+      <p></p>
+{%- endif -%}
+
+<article>
+<div id= article-comps>
+    {%- if page.toc -%}
+    <div id="table-of-contents">
+      <h2> Table of Contents </h2>
+      {% include toc.html html=content %}
+    </div>
+   {%- endif -%}
+
+  <div id="markdown-content">
+    {{ content }}
+  </div>
+
+</div>
+</article>

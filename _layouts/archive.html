@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<ul class="posts-container">
+  {% for post in site.posts %}
+    <li itemscope>
+      <div class="home-post-title">
+        <h4> {{ post.date | date: "%b %-d, %Y" }}</h4>
+        <h3> <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a></h3>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
+

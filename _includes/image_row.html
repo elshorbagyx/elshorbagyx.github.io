@@ -1,0 +1,15 @@
+<div class="row">
+    {% assign images = include.images | split: "," %}
+    {% assign captions = include.captions | split: "^" %}
+    {% assign len = images | size | minus: 1 %}
+    {% for i in (0..len)  %}
+      <div class="column">
+        {% assign path = images[i] | strip %}
+        {% assign full_path = '\assets\images\'| append: path %} 
+        <img src="{{ full_path }}" alt="{{ captions[i] }}" style="width:100%">
+        <div class="caption" style="text-align:center;">
+          {{ captions[i] }}
+        </div>
+      </div>
+    {% endfor %}
+</div> 

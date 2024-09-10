@@ -1,0 +1,47 @@
+/*
+  Post
+*/
+
+.post-date {
+  display: block;
+  margin-top:3px;
+  text-align: center;
+  margin-bottom: 0px;
+  color: $light-gray-color;
+  font-family: $sans-serif-font-family;
+  font-size:0.9rem;
+}
+
+.post-date-home {
+  display: block;
+  margin-top:3px;
+  margin-bottom: 0px;
+  color: $light-gray-color;
+  font-family: $sans-serif-font-family;
+  font-size:0.8rem;
+}
+
+@media (max-width: $elements-responsive-width) {
+  .posts h1 {
+    font-size: 1.5rem;
+    
+  }
+}
+
+.row {
+  display: flex;
+}
+
+.column{
+  padding: .3rem;
+
+}
+
+.quote {
+  font-style: italic;
+  font-size: 1.6rem;
+  padding: .5rem;
+  margin: .5rem;
+  text-align:center;
+
+}

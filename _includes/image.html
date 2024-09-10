@@ -1,0 +1,8 @@
+<div style="text-align:center">
+  {% assign path = include.image | strip %}
+  {% assign full_path = '\assets\images\' | append: path %}
+  <img src="{{ full_path }}" style="max-width: 100%;"/>
+  {% if include.caption %}
+    <div class="caption">{{ include.caption }}</div>
+  {% endif %}
+</div>

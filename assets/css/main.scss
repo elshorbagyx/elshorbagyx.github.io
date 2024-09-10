@@ -1,0 +1,126 @@
+---
+---
+
+@font-face {
+  font-family: 'CMSS';
+  src:url('../fonts/computer-modern/cmunsl.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CMSS';
+  src:url('../fonts/computer-modern/cmunbl.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+ font-family:'CMS';
+ src:url('../fonts/computer-modern/cmunrm.woff') format('woff');
+ font-weight:normal;
+ font-style:normal;
+}
+
+@font-face {
+ font-family:'CMS';
+ src:url('../fonts/computer-modern/cmunbx.woff') format('woff');
+ font-weight:bold;
+ font-style:normal
+}
+
+@font-face {
+ font-family:'CMS';
+ src:url('../fonts/computer-modern/cmunti.woff') format('woff');
+ font-weight:normal;
+ font-style:italic;
+}
+
+@font-face {
+ font-family:'CMS';
+ src:url('../fonts/computer-modern/cmunbi.woff') format('woff');
+ font-weight:bold;
+ font-style:italic;
+}
+
+@font-face {
+ font-family:'CMS';
+ src:url('../fonts/computer-modern/cmunbi.woff') format('woff');
+ font-weight:bold;
+ font-style:italic;
+}
+
+@font-face {
+ font-family:'source-serif';
+ src:url('../fonts/source-serif-4/SourceSerif4-Regular.woff2') format('woff2');
+ font-weight:normal;
+ font-style:normal;
+}
+
+@font-face {
+ font-family:'source-serif';
+ src:url('../fonts/source-serif-4/SourceSerif4-Italic.woff2') format('woff2');
+ font-weight:normal;
+ font-style:italic;
+}
+
+@font-face {
+ font-family:'source-serif';
+ src:url('../fonts/source-serif-4/SourceSerif4-SemiBold.woff2') format('woff2');
+ font-weight:bold;
+ font-style:normal;
+}
+
+@font-face {
+ font-family:'source-serif';
+ src:url('../fonts/source-serif-4/SourceSerif4-SemiBoldItalic.woff2') format('woff2');
+ font-weight:bold;
+ font-style:italic;
+}
+
+$body-font : 'source-serif' , serif; 
+$sans-serif-font-family: "Quattrocento Sans", sans-serif;
+$serif-font-family:      "PT Serif", Georgia;
+$code-font-family:       "Source Code Pro", monospace;
+// $latex-like-font-family: "CMS", "Droid Sans", "Helvetica", "Arial", sans-serif;
+$latex-like-font-family: "CMS", "Helvetica", "Arial", sans-serif;
+$body-color:             #5c5c5c;
+// $body-color:             #333;
+$link-color:             black;
+
+$code-background-color:   #f5f5f5;
+$pagination-button-color: #e0e0e0;
+
+$dark-gray-color:        #333;
+$light-gray-color:       #999;
+$extra-light-gray-color: #ccc;
+
+$container-responsive-width: 768px;
+$elements-responsive-width:  30em;
+
+$icon-transition-time: .5s;
+$envelope-color:       #f39c12;
+$twitter-color:        #00aced;
+$instagram-color:      #375989;
+$github-color:         #343434;
+$linkedin-color:       #0073a4;
+$facebook-color:       #3d5b99;
+$pinterest-color:      #bd081c;
+$medium-color:         #00AB6C;
+$codepen-color:        black;
+$rss-color:            #ff6600;
+$base-line-height: 1.5 !default;
+
+$spacing-unit:     30px !default;
+
+$table-text-align: left !default;
+
+// Width of the content area
+$content-width:    900px !default;
+
+$on-palm:          600px !default;
+$on-laptop:        800px !default;
+
+$on-medium:        $on-palm !default;
+$on-large:         $on-laptop !default;
+@import "-sections-dir";

@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<h1>
+  {{ page.title }}
+</h1>
+<article>
+  <div class="library-links">
+   {% for link in page.links %}
+    <h3>{{ link[0] }}</h3>
+    <p> <a href={{ link[1] }}> {{ link[1] }} </p>
+   {% endfor %}
+  </div>
+</article>

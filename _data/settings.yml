@@ -1,0 +1,13 @@
+menu:
+- {name: 'Posts'     , url: 'posts.html'   }
+# - {name: 'System'    , url: 'system.html'  }
+# - {name: 'Album'     , url: 'album.html'   }
+- {name: 'Library'   , url: 'library.html' }
+- {name: 'About'     , url: 'about.html'   }
+
+social:
+- {icon: 'github',     link: 'https://github.com/mohamedrezk122'}
+- {icon: 'twitter',    link: 'https://twitter.com/mohamedrezk122'}
+- {icon: 'linkedin',   link: 'https://www.linkedin.com/in/mohamed-m-rezk/'}
+
+post_date_prefix: ''
