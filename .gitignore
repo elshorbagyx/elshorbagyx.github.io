@@ -1,0 +1,17 @@
+_site
+Gemfile.lock
+*.gem
+.sass-cache
+.jekyll-metadata
+.DS_Store
+.jekyll-cache
+
+# images for now
+books
+album
+system
+album-pages
+album.md
+system.md
+album-page.html
+album-pages.html
