@@ -19,9 +19,14 @@ layout: default
 </div>
 {%- endif -%}
 
-{% if page.image %}
+{% if page.cover %}
 <div style="text-align:center">
-<img src="{{ site.github.url }}/assets/posts-covers/{{ page.image }}">
+<figure>
+  <img src="{{ site.github.url }}/assets/posts-covers/{{ page.cover }}">
+{% if page.caption%}
+  <figcaption>{{ page.caption }}</figcaption>
+{% endif %}
+</figure>
 </div>
 {% endif %}
 
