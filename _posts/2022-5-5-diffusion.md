@@ -3,7 +3,7 @@ layout: post
 toc : true
 title:  "Diffusion Equation: a computational approach"
 author: "Mohamed Rezk"
-image: diffusion-cover.webp
+cover: "diffusion-cover.webp"
 keywords: computational physics, applied math, probability
 excerpt : My little journey in solving, computing, and simulating
  diffusion equation with simple approaches and in a fun way.

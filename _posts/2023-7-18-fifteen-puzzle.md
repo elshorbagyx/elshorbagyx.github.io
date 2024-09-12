@@ -3,7 +3,7 @@ layout: post
 toc : true 
 title:  "The Fifteen Puzzle"
 author: "Mohamed Rezk"
-image: fifteen-puzzle.webp
+cover: "fifteen-puzzle.webp"
 keywords: artificial intelligence, informed search, math puzzles, group theory
 excerpt : Looking at the 15 puzzle from a mathematician and computer scientist scope
 ---
