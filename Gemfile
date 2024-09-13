@@ -1,8 +1,7 @@
 source "https://rubygems.org"
-gemspec
 
-group :jekyll_plugins do
-    gem "webrick", "~> 1.7"
-    gem 'jekyll-loading-lazy'
-    gem 'jekyll-katex'
-end
+gem "webrick", "~> 1.7"
+gem "jekyll", "~> 4.2"
+gem "jekyll-sitemap", "~> 1.3"
+gem "jekyll-seo-tag", "~> 2.6"
+gem 'jekyll-katex'
