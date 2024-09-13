@@ -26,10 +26,7 @@ Throughout this article, we are going to explore how to determine if a certain g
 The puzzle was originally invented by **Noyes Palmer Chapman** in 1874, but it was misattributed to **Sam Loyd**. In reality, Sam had nothing to do with creation of the puzzle. He attempted to claim credit for it and fought for recognition, a battle that lasted for 20 years from 1891 until his death in 1911. Loyd even offered a prize ($1000) to anyone who could  solve a certain instance defined by him.  
 The starting state is, all the squares are in the right place except for 14 and 15 being swapped.  The desired  goal is to swap them back, thus returning  every square to its respective place. This why the puzzle is known as  the 14-15 puzzle .  The following two figures can help illustrate the problem definition more meaningfully.
 
-<div style="text-align:center">
-  <img src="\assets\images\post-2\14-15.webp" />
-  <div class="caption">Loyd Puzzle</div>
-</div>
+![Loyd Puzzle](\assets\images\post-2\14-15.webp)
 
 Sadly, no one took the prize as the goal is unreachable !  
 
@@ -102,10 +99,7 @@ To sum up , what is needed to be known just these two facts:
 
 Enough of abstract algebra;  now we begin solving the puzzle. First, we flatten the board,  commonly known as hot vector.  For example, consider this instance of the puzzle, which is flattened, with the solved/goal state at top and the scrambled one beneath it.  Here is a sample made for the 8 puzzle for simplification: 
 
-<div style="text-align:center">
-  <img src="\assets\images\post-2\flatten.webp" />
-  <div class="caption">8-puzzle instance with its flattened version</div>
-</div>
+![8-puzzle instance with its flattened version](\assets\images\post-2\flatten.webp) 
 
 $$
 \begin{pmatrix}
@@ -156,10 +150,7 @@ Generalizing the problem let us understand the nature of the computational aspec
 
 Now, with the interesting part. In this section of the article, we are going to develop a way to solve the puzzle (if is solvable).  As we mentioned in the previous section, we can model the problem as a tree, where each node represents a configuration obtained by swapping the blank square with one of its neighbor tiles.
 
-<div style="text-align:center">
-  <img src="\assets\images\post-2\tree.webp" />
-  <div class="caption">simple puzzle tree </div>
-</div>
+![simple puzzle tree](\assets\images\post-2\tree.webp)
 
 Furthermore, the number of nodes in such tree is huge and exponentially increases with the problem size. Therefore, using ordinary (uninformed) search methods like breadth-first, depth-first, or iterative-deepening depth-first will not work efficiently as we expect. In fact, breadth-first search can work well in small instances like the 8 puzzle where the goal node is shallow (at a small depth), considering that the average branching factor is 3. One can compute it by counting the possible states we can reach at distinct positions within the box.  For instance, we have 3 moves available if the blank square at the border but not at the corner, 2 moves at the corner, and 4 moves at the center of the box, which gives an average branching factor of 3:  
 
@@ -307,10 +298,7 @@ The dramatic speed-up in the execution time is due to non-monotonicity and non-a
 
 For the sake of completeness, I have made a simple Manim visualization.
 
-<div style="text-align:center">
-  <img src="\assets\images\post-2\demo-opt.gif" />
-  <div class="caption">Demo</div>
-</div>
+![Demo](\assets\images\post-2\demo-opt.gif)
 
 ## TODO
 
