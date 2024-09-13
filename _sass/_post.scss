@@ -12,15 +12,6 @@
   font-size:0.9rem;
 }
 
-.post-date-home {
-  display: block;
-  margin-top:3px;
-  margin-bottom: 0px;
-  color: $light-gray-color;
-  font-family: $sans-serif-font-family;
-  font-size:0.8rem;
-}
-
 @media (max-width: $elements-responsive-width) {
   .posts h1 {
     font-size: 1.5rem;
