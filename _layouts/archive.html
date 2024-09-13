@@ -2,13 +2,11 @@
 layout: default
 ---
 
-<ul class="posts-container">
+<ul class="home-posts">
   {% for post in site.posts %}
     <li itemscope>
-      <div class="home-post-title">
-        <h4> {{ post.date | date: "%b %-d, %Y" }}</h4>
-        <h3> <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a></h3>
-      </div>
+      <h4> {{ post.date | date: "%b %-d, %Y" }}</h4>
+      <h3> <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a></h3>
     </li>
   {% endfor %}
 </ul>
