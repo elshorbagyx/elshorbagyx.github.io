@@ -250,7 +250,7 @@ td {
   text-align: center;
 }
 
-.post-keywords h4{
+.post-keywords p{
   font-size:1.1rem;
   margin:5px;
   color: gray;
@@ -286,4 +286,10 @@ td {
 
 figcaption {
   text-align: center;
+}
+
+figure {
+  text-align: center;
+  margin: 0px;
+  width:100%;
 }
