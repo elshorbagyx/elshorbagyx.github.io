@@ -2,8 +2,11 @@
   Social media icons
 */
 
-.sharing-icons a {
-  padding-right: 10px;
+svg.icon { 
+  width: 1.3rem;
+  height: 1.3rem;
+  vertical-align: middle;
+  padding: 5px;
 }
 
 @mixin social-media-icon($color, $transition){
@@ -13,26 +16,21 @@
   -moz-transition: $transition;
   transition: $transition;
   &:hover{
-    color: $color;
+    fill: $color;
   }
 }
 
-.fa-envelope {
-  padding: 5px;
-  @include social-media-icon($envelope-color, $icon-transition-time);
-}
-
-.fa-twitter {
-  padding: 5px;
+.icon-twitter {
+  fill: $light-gray-color;
   @include social-media-icon($twitter-color, $icon-transition-time);
 }
 
-.fa-github {
-  padding: 5px;
+.icon-github {
+  fill: $light-gray-color;
   @include social-media-icon($github-color, $icon-transition-time);
 }
 
-.fa-linkedin {
-  padding: 5px;
+.icon-linkedin {
+  fill: $light-gray-color;
   @include social-media-icon($linkedin-color, $icon-transition-time);
 }
