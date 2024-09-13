@@ -2,7 +2,15 @@
   Social media icons
 */
 
-svg.icon { 
+.footer svg { 
+  color: $light-gray-color;
+  width: 1.7rem;
+  height: 1.7rem;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+.menu svg { 
   width: 1.3rem;
   height: 1.3rem;
   vertical-align: middle;

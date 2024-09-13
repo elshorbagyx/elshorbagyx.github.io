@@ -87,6 +87,8 @@ hr {
   max-width: calc(#{$content-width} - (#{$spacing-unit}));
   margin-right: auto;
   margin-left: auto;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
   padding-right: calc($spacing-unit / 2);
   padding-left: calc($spacing-unit / 2);
   @extend %clearfix;

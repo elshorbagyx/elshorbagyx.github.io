@@ -32,7 +32,7 @@
 */
 
 .header {
-  padding-top: 0.5rem;
+  padding-top: 0rem;
   text-align: center;
   padding-bottom: 0.5rem;
   margin-bottom: 0rem;
@@ -54,15 +54,14 @@
   color: $light-gray-color;
 }
 
-.site_logo {
-
+.site-logo {
   display: flex;
   align-items: center;
   justify-content: center
 
 }
 
-.site_logo img {
+.site-logo img {
   padding-right: 0px;
   width:90px;
 }
@@ -72,9 +71,8 @@
 */
 
 .menu {
-  padding-top: 0.5rem;
+  padding-top: 0rem;
   display: block;
-
 }
 
 .menu-content {
@@ -84,7 +82,7 @@
 
 .menu-content a {
   color: $light-gray-color;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   padding-right: 10px;
 }
 
@@ -114,35 +112,23 @@
 .footer {
   color: $light-gray-color;
   text-align: center;
-  margin-bottom: 0px;
+  margin-bottom: 1.2rem;
   margin-top: 20px;
 }
 
-.footer a {
-  color: $light-gray-color;
-  padding: 10px;
-  text-decoration: none;
-  font-size : 1.2rem ;
-  font-family : $body-font ;
+
+.title-logo {
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.footer a:hover {
-  color: $dark-gray-color;
+.site-logo{
+  margin-right: 10px;
 }
 
-.footer-description {
-  display: block;
-  margin-top:3px;
-  margin-bottom: 1rem;
-  color: $light-gray-color;
-  font-family: $sans-serif-font-family;
-  font-size:0.8rem;
-}
-
-
-
-.MathJax_Display {
-  width: 100%; /* Adjust this to your desired width */
-  overflow-x: auto; /* Enable horizontal scrolling if content overflows */
-  white-space: nowrap;
+.title-logo img {
+  max-width: 100%;
+  max-height:100%;
 }

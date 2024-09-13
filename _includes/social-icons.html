@@ -1,9 +1,8 @@
 {% for item in site.data.settings.social %}
 <a href="{{ item.link }}" target="_blank" aria-label="{{ item.icon | capitalize }}">
   <i class="icon-{{ item.icon }}" aria-hidden="true">
-  <svg class="icon">
+    <svg class="icon">
     <use href="{{site.baseurl}}/assets/icons.svg#{{ item.icon }}"></use>
-  </svg></i>
-</a>
+  </svg></i></a>
 {% endfor %}
 
