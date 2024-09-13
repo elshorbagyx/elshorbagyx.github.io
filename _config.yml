@@ -1,14 +1,7 @@
-# jekyll-paginate configuration
-paginate:            5
-
 # Build settings
 markdown:            kramdown
-# highlighter:         rouge
-#   input:             GFM
 permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag, jekyll-loading-lazy, jekyll-katex]
 title:		           'The Computation Side of Things'
-description:	       ''
 author:              'Mohamed Rezk'
-title-logo:           /Fav.png                 
-future : true
+future:               true
