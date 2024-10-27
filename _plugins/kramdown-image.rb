@@ -10,7 +10,6 @@ module StandaloneImages
                 return convert_standalone_image(ell, indent)
             end
         end
-
         super
     end
 
@@ -20,7 +19,8 @@ module StandaloneImages
 
     def convert_standalone_image(el, indent)
         image_attr = el.attr.dup
-        body = "#{' ' * (indent + @indent)}<img#{html_attributes(image_attr)} />\n" \
+        # html_attributes(image_attr)
+        body = "#{' ' * (indent + @indent)}<img src=\"/assets/images/blank.jpg\" data-echo=#{image_attr['src']} />\n" \
         "#{' ' * (indent + @indent)}<figcaption>#{image_attr['alt']}</figcaption>\n"
         format_as_indented_block_html("figure", image_attr, body, indent)
     end
