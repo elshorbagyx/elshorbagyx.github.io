@@ -1,17 +1,13 @@
 <header class="header">
-  <h1 class="wrapper">
-    <div class="title-logo">
+  <nav>
     <div class="site-logo" >
       <a href="{{ site.baseurl }}" target="_self">
       <img src="{{ site.baseurl }}/assets/favicon.ico" alt="logo" />
       </a>
     </div>
-
-    <div class="site-title">
-    <a href="{{ site.baseurl }}/">{{ site.title }}</a>
-    </div>
-    </div>
-    
-    {% include menu.html %}
-  </h1>
+    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    {% for item in site.data.settings.menu %}
+    <a href="{{ site.github.url }}/{{ item.url }}">{{ item.name }}</a>
+    {% endfor %}
+  </nav>
 </header>

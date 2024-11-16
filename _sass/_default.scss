@@ -2,7 +2,6 @@
   Site container
 */
 
-
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -27,83 +26,6 @@
   }
 }
 
-/*
-  Header
-*/
-
-.header {
-  padding-top: 0rem;
-  text-align: center;
-  padding-bottom: 0.5rem;
-  margin-bottom: 0rem;
-  font-family: $sans-serif-font-family;
-}
-
-.header a:hover {
-  color:black;
-}
-
-.header-title a {
-  font-size: 1.8rem;
-  text-decoration: none;
-  color: black;
-  //font-family: 'Noe Display'
-}
-
-.header-subtitle {
-  color: $light-gray-color;
-}
-
-.site-logo {
-  display: flex;
-  align-items: center;
-  justify-content: center
-
-}
-
-.site-logo img {
-  padding-right: 0px;
-  width:90px;
-}
-
-/*
-  Menu
-*/
-
-.menu {
-  padding-top: 0rem;
-  display: block;
-}
-
-.menu-content {
-  text-align: center;
-
-}
-
-.menu-content a {
-  color: $light-gray-color;
-  font-size: 1.5rem;
-  padding-right: 10px;
-}
-
-.social-icons {
-  text-align: center;
-}
-
-.social-icons a {
-  color: $light-gray-color;
-  font-size: 1.1rem;
-}
-
-@media (max-width: $elements-responsive-width) {
-  .social-icons {
-    text-align: center;
-    padding-top: 0px;
-  }
-  .menu-content {
-    margin-bottom: 5px;
-  }
-}
 
 /*
   Footer
@@ -116,19 +38,53 @@
   margin-top: 20px;
 }
 
+/*
+  Header
+*/
 
-.title-logo {
-  padding: 0px;
+.header { 
+  margin-top: 1rem; 
+  margin-bottom: 2rem; 
+}
+
+.header > nav {
+  width: 100%;
+  max-width: calc(900px - 30px * 2);
+  display: flex; 
+  column-gap: 2ch; 
+  align-items: baseline;
+  flex-wrap: wrap; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header a { 
+  font-family: $title-font-family;
+  color: $light-gray-color;
+  font-style: normal;
+  text-decoration: none;
+  font-size : 1.3rem;
+}
+
+.header a:hover {
+  color: #e55a5c;
+}
+
+.header .site-title { 
+  flex-grow: 2;
+  font-size : 1.6rem;
+  color: $dark-gray-color;
+}
+
+.header .site-logo {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.site-logo{
-  margin-right: 10px;
+.site-logo img {
+  padding-right: 0px;
+  width:70px;
+  vertical-align:middle;
 }
 
-.title-logo img {
-  max-width: 100%;
-  max-height:100%;
-}
