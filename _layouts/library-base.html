@@ -8,8 +8,10 @@ layout: default
 <article>
   <div class="library-links">
    {% for link in page.links %}
-    <h3>{{ link[0] }}</h3>
-    <p> <a href={{ link[1] }}> {{ link[1] }} </p>
+    <h3> 
+        {{ forloop.index }} - 
+        <a href={{ link[1] }} target="_blank"> {{ link[0] }}</a>
+    </h3>
    {% endfor %}
   </div>
 </article>
