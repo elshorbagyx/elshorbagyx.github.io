@@ -6,7 +6,7 @@ caption: "Al Khwarizmi (also my desktop background)"
 permalink: /about
 ---
 
-Hi, My name is **Mohamed El Shorbagy**, but you call me rezk. Currently, I am a senior student at **Ain Shams University, Egypt**, studying **Computer and Systems Engineering**. My interests span various fields within the arena of **systems programming**, including:
+Hi, My name is **Mohamed El Shorbagy**, but you can call me rezk. Currently, I am a senior student at **Ain Shams University, Egypt**, studying **Computer and Systems Engineering**. My interests span various fields within the arena of **systems programming**, including:
 - Compilers
 - Virtual machines and Runtimes
 - Dynamically-typed programming languages
