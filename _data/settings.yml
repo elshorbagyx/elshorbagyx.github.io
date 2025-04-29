@@ -6,6 +6,6 @@ menu:
 - {name: 'About'     , url: 'about.html'   }
 
 social:
-- {icon: 'github',     link: 'https://github.com/mohamedrezk122'}
-- {icon: 'twitter',    link: 'https://twitter.com/mohamedrezk122'}
+- {icon: 'github',     link: 'https://github.com/elshorbagyx'}
+- {icon: 'twitter',    link: 'https://twitter.com/elshorbagyx'}
 - {icon: 'linkedin',   link: 'https://www.linkedin.com/in/mohamed-m-rezk/'}

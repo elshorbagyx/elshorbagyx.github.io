@@ -16,7 +16,7 @@ Additionally, I am interested in **graphics** and **computational geometry**.
 
 I code in **Rust**, **Python**, **Lua**, **Bash**, and **C++**.
 
-I use [**Void Linux**](https://voidlinux.org/) with [**i3wm**](https://i3wm.org/), you can take a look at my [**dotfiles**](https://github.com/mohamedrezk122/dotfiles/).
+I use [**Void Linux**](https://voidlinux.org/) with [**i3wm**](https://i3wm.org/), you can take a look at my [**dotfiles**](https://github.com/elshorbagyx/dotfiles/).
 
 
-You can reach me through [twitter](https://x.com/mohamedrezk122) or by email [mohrizq895 at gmail.com].
+You can reach me through [twitter](https://x.com/elshorbagyx) or by email [mohrizq895 at gmail.com].

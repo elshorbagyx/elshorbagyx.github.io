@@ -306,7 +306,7 @@ As for now, I am satisfied with the heuristic functions and the IDA* algorithm d
 
 ## References
 
-**GitHub repo** : [https://github.com/mohamedrezk122/fifteen-puzzle-solver](https://github.com/mohamedrezk122/fifteen-puzzle-solver)
+**GitHub repo** : [https://github.com/elshorbagyx/fifteen-puzzle-solver](https://github.com/elshorbagyx/fifteen-puzzle-solver)
 
 [(Book) Artificial Intelligence: A Modern Approach ](https://people.engr.tamu.edu/guni/csce421/files/AI_Russell_Norvig.pdf)
 
